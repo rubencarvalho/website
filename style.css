@@ -1,5 +1,11 @@
 .roundpic {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
-.fullsec { height: 100vh; }
+.fullsec {
+    eight: 100vh;
+}
+
+.a {
+    color: rgb(88, 200, 247);
+}
