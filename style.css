@@ -5,4 +5,10 @@
 .fullsec {
     height: 100vh;
 }
-/* Frontend */
+
+.anchor {
+padding: 50px;
+margin-top: -50px;
+display: block;
+visibility: hidden;
+}
