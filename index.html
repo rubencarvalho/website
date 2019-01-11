@@ -12,112 +12,130 @@ Test responsivness
     <title>My Website</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="bootstrap.min.js"></script>
-
 </head>
 
-<body class="container-fluid">
-
-    <header class="row bg-dark">
+<body class="container-fluid" style="background-color:black;">
+    <header class="row bg-dark sticky-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 ">
-                    <h1><a href="#">Rúben</a></h1>
+                <div class="col-md-4">
+                    <h1><a class="navbar-brand" href="#">Rúben</a></h1>
                 </div>
-                    <nav class="navbar col-md-8">
-                        <a href="#kontakt">Kontakt</a>
-                        <a href="#links">Links</a>
-                        <a href="#cv">Über mich</a>
-                        <a href="#footer">Impressum</a>
-                    </nav>
+                <nav class="navbar col-md-8">
+                    <a href="#kontakt">Kontakt</a>
+                    <a href="#links">Links</a>
+                    <a href="#cv">Über mich</a>
+                    <a href="#footer">Impressum</a>
+                </nav>
                 </div.>
             </div>
         </div>
     </header>
 
-    <main class="container">
-        <section id="skills" class="row">
-            <div class="col-md-4 bg-warning">
-                <img class="img-fluid" src="https://via.placeholder.com/400.png" alt="Rúben Carvalho photo">
+    <main class="container-fluid">
+        <!-- PHOTO AND SKILLS SECTION -->
+        <div style="min-height: 100%; height: 100%;">
+            <div class="container">
+                <section id="skills" class="row">
+                    <div class="col-md-4 bg-warning">
+                        <img class="img-fluid" src="https://via.placeholder.com/400.png" alt="Rúben Carvalho photo">
+                    </div>
+                    <div class="col-md-8 bg-warning">
+                        <h2>Skills</h2>
+                        <h3>Lorem ipsum</h3>
+                        <h3>Ipsum lorem</h3>
+                    </div>
+                </section>
             </div>
-            <div class="col-md-8 bg-warning">
-                <h2>Skills</h2>
-                <h3>Lorem ipsum</h3>
-                <h3>Ipsum lorem</h3>
-            </div>
-        </section>
 
-        <section id="kontakt" class="row">
-            <div class="col-md bg-light">
-                <p>0015733733603</p>
-            </div>
+            <!-- KONTAKT BAR -->
 
-            <div class="col-md bg-light">
-                <p>hi@ruben.one</p>
-            </div>
-        </section>
+            <section id="kontakt" class="row">
+                <div class="col-md bg-light">
+                    <p>0015733733603</p>
+                </div>
 
-        <section id="links" class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">GitHub</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md bg-light">
+                    <p>hi@ruben.one</p>
+                </div>
+            </section>
+
+            <!-- LINKS TO PROJECTS -->
+
+            <section id="links" class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
+                        <div class="card-body">
+                            <h5 class="card-title">GitHub</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">Codepen</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
+                        <div class="card-body">
+                            <h5 class="card-title">Codepen</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">neuefische</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
+                        <div class="card-body">
+                            <h5 class="card-title">neuefische</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="cv" class="row">
-            <div class="col-md-6">
-                <h2>Experience</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perspiciatis aspernatur
-                    repellat nostrum, esse dicta eveniet tempore? Obcaecati, cupiditate culpa? Magnam iusto maiores a
-                    quisquam vitae impedit similique, provident autem.</p>
-            </div>
-            <div class="col-md-6">
-                <h2>Education</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam eius eligendi, sit natus
-                    provident, animi iusto mollitia recusandae asperiores quas veniam fugiat omnis. Harum asperiores
-                    dignissimos repellat molestiae?
-                </p>
-            </div>
-        </section>
+            <!-- EXPERIENCE AND CV -->
 
+            <section id="cv" class="row">
+                <div class="col-md-6">
+                    <h2>Experience</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perspiciatis aspernatur
+                        repellat nostrum, esse dicta eveniet tempore? Obcaecati, cupiditate culpa? Magnam iusto maiores
+                        a
+                        quisquam vitae impedit similique, provident autem.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Education</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam eius eligendi, sit
+                        natus
+                        provident, animi iusto mollitia recusandae asperiores quas veniam fugiat omnis. Harum
+                        asperiores
+                        dignissimos repellat molestiae?
+                    </p>
+                </div>
+            </section>
+        </div>
     </main>
 
+    <!-- FOOTER / IMPRESSUM -->
+
     <footer class="row p-4 bg-dark text-light">
-        <p class="col-3">Impressum
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Cumque voluptatum sed laborum nulla possimus aperiam natus.
-            Fugit repudiandae aperiam ratione sapiente.</p>
+        <div class="container">
+            <p class="col-3">Impressum
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Cumque voluptatum sed laborum nulla possimus aperiam natus.
+                Fugit repudiandae aperiam ratione sapiente.</p>
+        </div>
     </footer>
 
 </body>
