@@ -15,13 +15,13 @@ Test responsivness
     <script src="bootstrap.min.js"></script>
 </head>
 
-<body class="container-fluid" style="background-color:rgb(23,23,23);">
+<body class="container-fluid pl-0 pr-0" style="background-color:rgb(23,23,23);">
     <!-- NAVBAR-->
     <header class="row sticky-top shadow" style="background-color:rgb(33,33,33);">
         <div class="container">
             <div class="row navbar">
                 <div class="col-md-4 align-self-center">
-                    <h1><a class="navbar-brand" style:"color:" href="#">Rúben Carvalho</a></h1>
+                    <h1><a class="navbar-brand" href="#">Rúben Carvalho</a></h1>
                 </div>
                 <nav class="navbar col-md-8">
                     <a href="#kontakt">contact();</a>
@@ -82,102 +82,77 @@ Test responsivness
 
         <!-- KONTAKT BAR -->
         <span id="kontakt" class="anchor"></span>
-        <div class="container">
-            <section class="row">
-                <div class="col-md text-light align-self-center">
-                    <h2 class="h1"><span style="color: rgb(232,51,208);">contact() </span>{</h2>
-                </div>
-                <div class="col-md text-light align-self-center">
-                    <p>if (<span style="color: rgb(113,38,233);">phone</span>) {<br>
-                        <span class="font-italic" style="color: rgb(88,200,247);">return</span> 0157 33 73 36 03
-                        ;<br>}</p>
-                </div>
+        <div class="pt-3 pb-3 mb-5" style="background-color:rgb(33,33,33)">
+            <div class="container">
+                <section class="row">
+                    <div class="col-md text-light text-center align-self-center">
+                        <h2 class="h1"><span style="color: rgb(232,51,208);">contact() </span>{</h2>
+                    </div>
+                    <div class="col-md text-light align-self-center">
+                        <p>if (<span style="color: rgb(113,38,233);">phone</span>) {<br>
+                            <span class="font-italic" style="color: rgb(88,200,247);">return</span> 0157 33 73 36 03
+                            ;<br>}</p>
+                    </div>
 
-                <div class="col-md text-light align-self-center">
-                    <p>if (<span style="color: rgb(113,38,233);">email</span>) {<br>
-                        <span class="font-italic" style="color: rgb(88,200,247);">return</span> hi@ruben.one ;<br>
-                        }</p>
+                    <div class="col-md text-light align-self-center">
+                        <p>if (<span style="color: rgb(113,38,233);">email</span>) {<br>
+                            <span class="font-italic" style="color: rgb(88,200,247);">return</span> hi@ruben.one ;<br>
+                            }</p>
+                    </div>
+                    <div class="col-md text-light text-center align-self-center">
+                        <h2 class="h1">}</h2>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <!-- LINKS TO PROJECTS -->
+        <span id="links" class="anchor"></span>
+        <div class="container">
+            <section id="links" class="row">
+                <div class="col-md-4 text-light text-center align-self-center">
+                    <img class="img-fluid roundpic shadow" src="imgs/profile.png" alt="Rúben Carvalho photo">
+                    <h2 class="mt-3">GitHub</h2>
                 </div>
-                <div class="col-md text-light align-self-center">
-                    <h2 class="h1">}</h2>
+                <div class="col-md-4">CodePen.io</div>
+                <div class="col-md-4">neuefische</div>
+            </section>
+        </div>
+        <!-- EXPERIENCE AND CV -->
+        <span id="cv" class="anchor"></span>
+        <div class="container">
+            <section class="row fullsec">
+                <div class="col-md-6">
+                    <h2>Experience</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perspiciatis aspernatur
+                        repellat nostrum, esse dicta eveniet tempore? Obcaecati, cupiditate culpa? Magnam iusto maiores
+                        a
+                        quisquam vitae impedit similique, provident autem.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Education</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam eius eligendi, sit
+                        natus
+                        provident, animi iusto mollitia recusandae asperiores quas veniam fugiat omnis. Harum
+                        asperiores
+                        dignissimos repellat molestiae?
+                    </p>
                 </div>
             </section>
         </div>
-
-        <!-- LINKS TO PROJECTS -->
-
-        <section id="links" class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">GitHub</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">Codepen</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/400.png" class="card-img-top" alt="GitHub">
-                    <div class="card-body">
-                        <h5 class="card-title">neuefische</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- EXPERIENCE AND CV -->
-
-        <section id="cv" class="row">
-            <div class="col-md-6">
-                <h2>Experience</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perspiciatis aspernatur
-                    repellat nostrum, esse dicta eveniet tempore? Obcaecati, cupiditate culpa? Magnam iusto maiores
-                    a
-                    quisquam vitae impedit similique, provident autem.</p>
-            </div>
-            <div class="col-md-6">
-                <h2>Education</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam eius eligendi, sit
-                    natus
-                    provident, animi iusto mollitia recusandae asperiores quas veniam fugiat omnis. Harum
-                    asperiores
-                    dignissimos repellat molestiae?
-                </p>
-            </div>
-        </section>
     </main>
 
     <!-- FOOTER / IMPRESSUM -->
 
-    <footer class="row p-4 bg-dark text-light">
+    <footer style="background-color:rgb(33,33,33)" class="row p-4 text-light">
         <div class="container">
-            <p class="col-3">Impressum
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Cumque voluptatum sed laborum nulla possimus aperiam natus.
-                Fugit repudiandae aperiam ratione sapiente.</p>
+            <p class="small offset-9 col-3"><strong>Impressum</strong><br>
+                Rúben Carvalho<br>
+                Bernhard-Nocht-Straße 101<br>
+                20359 Hamburg<br>
+                Telefon: +4915733733603<br>
+                E-Mail: hi@ruben.one</p>
         </div>
     </footer>
 

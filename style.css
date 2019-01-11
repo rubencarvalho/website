@@ -3,12 +3,20 @@
 }
 
 .fullsec {
-    height: 100vh;
+    height: 90vh;
 }
 
 .anchor {
-padding: 50px;
-margin-top: -50px;
+padding: 36px;
+margin-top: -36px;
 display: block;
 visibility: hidden;
+}
+
+a {
+    color: white;
+}
+
+ul.nav a:hover {
+    color: rgba(255, 255, 255, 0.6);
 }
