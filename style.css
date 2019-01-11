@@ -3,9 +3,6 @@
 }
 
 .fullsec {
-    eight: 100vh;
+    height: 100vh;
 }
-
-.a {
-    color: rgb(88, 200, 247);
-}
+/* Frontend */
