@@ -11,10 +11,11 @@
 
 a {
     color: white;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🇵🇹</text></svg>") 16 0,auto; /*emojicursor.app*/
 }
 
 a:hover {
-   color:rgb(113,38,233);
+    color: rgb(113, 38, 233);
 }
 
 .mobile-margin {
@@ -22,8 +23,11 @@ a:hover {
 }
 
 ::selection {
-    background: rgba(255, 255, 255, 0.2); /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-    background: rgba(255, 255, 255, 0.2); /* Gecko Browsers */
-  }
+    background: rgba(255, 255, 255, 0.2);
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.2);
+    /* Gecko Browsers */
+}
