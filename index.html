@@ -33,6 +33,8 @@ Test responsivness
     </header>
 
     <main>
+        <div class="mobile-margin d-block d-md-none"></div>
+
         <!-- PHOTO AND SKILLS SECTION -->
         <div class="container fullsec d-flex align-items-center">
             <section id="skills" class="row">
@@ -43,6 +45,8 @@ Test responsivness
                     <h5>Fresh Fish from neuefische'19</h5>
                 </div>
                 <div class="col-md-8 text-light">
+                    <div class="mt-5 d-block d-md-none"></div>
+
                     <h2 class="h1"><span style="color: rgb(232,51,208)">.</span><span style="color: rgb(232,51,208)">skills
                         </span>{</h2>
                     <p class="h3" style="color:gray">/* Frontend */</p>
@@ -81,25 +85,27 @@ Test responsivness
 
 
         <!-- KONTAKT BAR -->
+        <div class="mobile-margin d-block d-md-none"></div>
+
         <span id="kontakt" class="anchor"></span>
-        <div class="pt-3 pb-3 mb-5" style="background-color:rgb(33,33,33)">
+        <div class="pt-5 pb-5 mb-5" style="background-color:rgb(33,33,33)">
             <div class="container">
                 <section class="row">
-                    <div class="col-md text-light text-center align-self-center">
+                    <div class="col-md text-light text-md-center align-self-center">
                         <h2 class="h1"><span style="color: rgb(232,51,208);">contact() </span>{</h2>
                     </div>
                     <div class="col-md text-light align-self-center">
-                        <p>if (<span style="color: rgb(113,38,233);">phone</span>) {<br>
+                        <p>if (<a href="tel:004915733733603"><span style="color: rgb(113,38,233);">phone</span></a>) {<br>
                             <span class="font-italic" style="color: rgb(88,200,247);">return</span> 0157 33 73 36 03
                             ;<br>}</p>
                     </div>
 
                     <div class="col-md text-light align-self-center">
-                        <p>if (<span style="color: rgb(113,38,233);">email</span>) {<br>
+                        <p>if (<a href="mailto:hi@ruben.one"><span style="color: rgb(113,38,233);">email</span></a>) {<br>
                             <span class="font-italic" style="color: rgb(88,200,247);">return</span> hi@ruben.one ;<br>
                             }</p>
                     </div>
-                    <div class="col-md text-light text-center align-self-center">
+                    <div class="col-md text-light text-md-center align-self-center">
                         <h2 class="h1">}</h2>
                     </div>
                 </section>
@@ -110,67 +116,76 @@ Test responsivness
         <!-- LINKS TO PROJECTS -->
         <span id="links" class="anchor"></span>
         <div class="container">
-            <section id="links" class="row mt-5 mb-5">
+            <section id="links" class="row mt-5 mb-5 pb-3">
                 <div class="col-md-4 text-light text-center">
                     <a href="https://github.com/rubencarvalho" target="_blank">
-                        <img class="img-fluid roundpic shadow" src="imgs/github.png" alt="Rúben Carvalho photo">
+                        <img class="img-fluid rounded-circle shadow" src="imgs/github.png" alt="Rúben Carvalho photo">
                         <h4 class="mt-3">GitHub</h4>
                     </a>
-                    <p>Check out my code here! (Or lack thereof)</p>
+                    <p>Check out my code</p>
                 </div>
                 <div class="col-md-4 text-light text-center">
+                    <div class="mt-5 d-block d-md-none"></div>
+
                     <a href="https://codepen.io/rubencarvalho" target="_blank">
-                        <img class="img-fluid roundpic shadow" src="imgs/codepen.png" alt="CodePen Logo">
+                        <img class="img-fluid rounded-circle shadow" src="imgs/codepen.png" alt="CodePen Logo">
                         <h4 class="mt-3">CodePen</h4>
                     </a>
-                    <p>I publish my Frontend awesomeness here</p>
+                    <p>Frontend awesomeness here</p>
                 </div>
                 <div class="col-md-4 text-light text-center">
+                    <div class="mt-5 d-block d-md-none"></div>
+
                     <a href="https://neuefische.de" target="_blank">
-                        <img class="img-fluid roundpic shadow" src="imgs/neuefische.png" alt="Rúben Carvalho photo">
+                        <img class="img-fluid rounded-circle shadow" src="imgs/neuefische.png" alt="Rúben Carvalho photo">
                         <h4 class="mt-3">neuefische</h4>
                     </a>
 
-                    <p>Get to know more about the Bootcamp.</p>
+                    <p>Get to know more about the Bootcamp</p>
                 </div>
             </section>
         </div>
         <!-- EXPERIENCE AND CV -->
         <span id="cv" class="anchor"></span>
-        <div class="container">
-            <section class="row mb-5 mt-5">
-                <div class="col-md-6 text-light">
-                    <h2><span style="color: rgb(232,51,208)">.experience </span>{</h2>
-                    <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>MTV Portugal</button> <span>VJ & Show host</span>
-                    <br>
-                    <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>KuantoKusta</button> <span>News editor</span>
-                    <br>
-                    <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>Independent Developer</button> <span>Fullstack development</span>
-                    <br>
-                    <h2>}</h2>
-                </div>
-                <div class="col-md-6 text-light">
-                    <h2><span style="color: rgb(232,51,208)">.education </span>{</h2>
-                    <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>2010-2015</button> <span>University of Aveiro</span>
-                    <br> <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>2015-2018</button> <span>Technische Universität Hamburg-Harburg</span>
-                    <br> <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
-                        disabled>2019</button> <span>Neuefische Bootcamp</span>
-                    <h2>}</h2>
-                </div>
-            </section>
+        <div class="pt-2 pb-5 mb-5" style="background-color:rgb(33,33,33)">
+            <div class="container">
+                <section class="row mt-5">
+                    <div class="col-md-6 text-light">
+                        <h2><span style="color: rgb(232,51,208)">.experience </span>{</h2>
+                        <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>MTV Portugal</button> <span>VJ & host ;</span>
+                        <br>
+                        <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>KuantoKusta</button> <span>News editor ;</span>
+                        <br>
+                        <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>Independent Developer</button> <span>Fullstack development ;</span>
+                        <br>
+                        <h2>}</h2>
+                    </div>
+
+                    <div class="col-md-6 text-light">
+                        <div class="mt-5 d-block d-md-none"></div>
+
+                        <h2><span style="color: rgb(232,51,208)">.education </span>{</h2>
+                        <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>2010-2015</button> <span>University of Aveiro ;</span>
+                        <br> <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>2015-2018</button> <span>TUHH ;</span>
+                        <br> <button type="button" style="color: rgb(88,200,247); border-color:rgb(88,200,247);" class="btn-lg btn-outline-primary m-2"
+                            disabled>2019</button> <span>Neuefische Bootcamp ;</span>
+                        <h2>}</h2>
+                    </div>
+                </section>
+            </div>
         </div>
     </main>
 
     <!-- FOOTER / IMPRESSUM -->
 
-    <footer style="background-color:rgb(33,33,33)" class="row p-4 text-light">
+    <footer class="row px-4 text-light">
         <div class="container">
-            <p class="small offset-9 col-3"><strong>Impressum</strong><br>
+            <p class="small offset-8 col-4"><strong>Impressum</strong><br>
                 Rúben Carvalho<br>
                 Bernhard-Nocht-Straße 101<br>
                 20359 Hamburg<br>
