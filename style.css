@@ -31,3 +31,28 @@ a:hover {
     background: rgba(255, 255, 255, 0.2);
     /* Gecko Browsers */
 }
+
+body {
+    display: grid;
+    grid-template-rows: 73px 500px 184px 600px 400px 200px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.span3{
+    grid-column: span 3;
+}
+.span4{
+    grid-column: span 4;
+}
+.span6{
+    grid-column: span 6;
+
+}
+.span8{
+    grid-column: span 8;
+
+}
+.span12 {
+    grid-column: span 12;
+
+}
